@@ -1,0 +1,92 @@
+*{
+    background-color:blanchedalmond;
+        
+}
+.a-hover{
+    border: 0 1px solid black;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px 0px black;
+
+}
+.a-hover:hover{
+    animation: trans  infinite;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px 0px black;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    padding: 2.5px;
+    margin: 10px;
+    background-color: transparent;
+
+   
+}
+
+@keyframes trans {
+    0%{
+        border: 1.5px solid black;
+    }
+    100%{
+        border: 2.5px solid black;
+    }
+}
+.name{
+    font-family: cursive;
+    font-size: large;
+    text-shadow: 1px 1px 1px white;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+}
+#navbar{
+    
+    text-align: right;
+    /* background-color: black; */
+    font-size: large;
+    text-shadow: none;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-transform: uppercase;          
+}
+/* .parent{
+    width: 80%;
+    background-color: rgb(28, 110, 110);
+    height: 100px;
+    width: auto;
+}
+.child{
+    width: 80%;
+    background-color: rgb(10, 17, 17);
+    height: 100px;
+} */
+ 
+h2{
+    color: rgb(254, 25, 73);
+    color: rgba(254, 25, 64, .89);
+    background-color: rgb(56, 54, 55);
+}
+
+p.verizon{
+    text-indent: 50px;
+    color: darkgreen;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;  
+    text-shadow: px 2px 2px black;
+}
+
+p.verizon::first-letter{
+    font-size: 2em;
+    text-decoration: underline;
+}
+#contact{
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px black;
+    color: rgb(0, 0, 0);
+}
